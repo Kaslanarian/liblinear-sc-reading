@@ -50,7 +50,6 @@ LIBLINEAR总共可以求解12种问题，除了Crammer-Singer的多分类模型�
 
 ## 获取
 
-<<<<<<< HEAD
 通过
 
 ```bash
