@@ -74,10 +74,7 @@ git clone https://github.com/Kaslanarian/liblinear-sc-reading
 5. [Coordinate descent method for large-scale l2-loss linear support vector machines](https://www.jmlr.org/papers/volume9/chang08a/chang08a.pdf)：坐标下降求解L2-loss SVM原问题；
 6. [Dual coordinate descent methods for logistic regression and maximum entropy models](https://link.springer.com/article/10.1007/s10994-010-5221-8)：坐标下降法求解对率回归(逻辑回归)的对偶问题；
 7. [A comparison of optimization methods and software for large-scale l1-regularized linear classification](https://www.jmlr.org/papers/volume11/yuan10c/yuan10c.pdf)：L1正则化下的对率回归与L2-loss SVM的求解（这篇文章也是对L1正则的优化算法综述）；
-4. [Dual coordinate-descent methods for linear one-class SVM and SVDD](https://epubs.siam.org/doi/abs/10.1137/1.9781611976236.21)：二层坐标下降法框架求解单类SVM的对偶问题（同时也提出了支持向量数据描述(SVDD)的训练方法）；
-4. [A sequential dual method for large scale multi-class li](https://dl.acm.org/doi/abs/10.1145/1401890.1401942)：坐标下降法求解多分类SVM.
+8. [Dual coordinate-descent methods for linear one-class SVM and SVDD](https://epubs.siam.org/doi/abs/10.1137/1.9781611976236.21)：二层坐标下降法框架求解单类SVM的对偶问题（同时也提出了支持向量数据描述(SVDD)的训练方法）；
+9. [A sequential dual method for large scale multi-class li](https://dl.acm.org/doi/abs/10.1145/1401890.1401942)：坐标下降法求解多分类SVM.
 
 你可以在<https://welts.xyz>中找到笔者对这些文献的解读。我们这里省略了一些辅助文献，详情可查看pdf中的参考文献。
-=======
-在`code.pdf`中是对LIBLINEAR的C++源码的解读，笔者打算读完理论后再写也不迟。
->>>>>>> 2a1f5771ba790041518733b8af66abe2a6b8b335
