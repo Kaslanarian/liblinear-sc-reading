@@ -24,7 +24,11 @@ LIBLINEAR总共可以求解12种问题，除了Crammer-Singer的多分类模型�
 
 基础模型前三种为分类模型，其中第三个模型为对率回归(逻辑回归, Logistic Regression, LR)，后两个模型为回归模型。模型中的"L1"和"L2"表示损失函数类型而不是正则化，具体可见[`theory.pdf`](./theory.pdf)。
 
+<<<<<<< HEAD
 以下为目前笔者的文献阅读和研究进度，表格中为对应问题的优化方法(==已完成==):
+=======
+以下为目前笔者的文献阅读和研究进度，其中"?"表示笔者并未弄清该问题的优化算法(**更新中**):
+>>>>>>> 2a1f5771ba790041518733b8af66abe2a6b8b335
 
 | 基础模型 | L1正则化的原问题 | L2正则化的原问题 | L2正则化的对偶问题 |
 | :------: | :--------------: | :--------------: | :----------------: |
@@ -39,13 +43,18 @@ LIBLINEAR总共可以求解12种问题，除了Crammer-Singer的多分类模型�
 > - CG: Conjugate gradient, 共轭梯度法；
 > - LS: Line search, 线搜索算法.
 
+<<<<<<< HEAD
 下面是剩余两种算法的研究进度(==已完成==):
+=======
+下面是剩余两种算法的研究进度(**更新中**):
+>>>>>>> 2a1f5771ba790041518733b8af66abe2a6b8b335
 
 - [x] Crammer-Singer多分类：坐标下降法；
 - [x] One-class SVM对偶问题：外贪心内循环的二层坐标下降框架.
 
 ## 获取
 
+<<<<<<< HEAD
 通过
 
 ```bash
@@ -69,3 +78,6 @@ git clone https://github.com/Kaslanarian/liblinear-sc-reading
 4. [A sequential dual method for large scale multi-class li](https://dl.acm.org/doi/abs/10.1145/1401890.1401942)：坐标下降法求解多分类SVM.
 
 你可以在<https://welts.xyz>中找到笔者对这些文献的解读。我们这里省略了一些辅助文献，详情可查看pdf中的参考文献。
+=======
+在`code.pdf`中是对LIBLINEAR的C++源码的解读，笔者打算读完理论后再写也不迟。
+>>>>>>> 2a1f5771ba790041518733b8af66abe2a6b8b335
